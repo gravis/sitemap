@@ -1,4 +1,4 @@
-class SitemapsController < ActionController::Base
+class SitemapsController < ApplicationController
   
   def show
     @widgets = SitemapWidget.find(:all)
